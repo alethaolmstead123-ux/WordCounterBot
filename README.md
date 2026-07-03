@@ -1,19 +1,16 @@
 # WordCounterBot
 
-A Telegram bot that provides detailed text analysis including word count, character count, sentence count, readability scores, parts of speech extraction, and much more.
+A Telegram bot that provides detailed text analysis.
 
 ## Features
 
 - Word, character, sentence & paragraph counting
-- Characters count with and without spaces
-- Syllable count
 - Unique & repeated word detection
-- Longest & shortest words identification
+- Longest & shortest words
 - Average word length & words per sentence
 - Parts of speech extraction (nouns, verbs, adjectives, adverbs)
 - Flesch Reading Ease score
 - Word frequency analysis
-- Full comprehensive analysis
 
 ## Commands
 
@@ -43,8 +40,3 @@ This bot is ready to deploy on Railway.
 ### Environment Variables Required
 
 - `BOT_TOKEN` - Your Telegram bot token from @BotFather
-
-## Technologies Used
-
-- Python 3.10
-- pyTelegramBotAPI (Telegram Bot API wrapper)
