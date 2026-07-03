@@ -1,5 +1,6 @@
 from commands import bot
 import os
+import time
 
 if __name__ == "__main__":
     print("🤖 WordCounterBot is starting...")
@@ -10,3 +11,5 @@ if __name__ == "__main__":
         bot.infinity_polling()
     except Exception as e:
         print(f"❌ Error: {e}")
+        time.sleep(5)
+        bot.infinity_polling()
